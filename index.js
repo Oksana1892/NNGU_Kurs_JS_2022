@@ -18,23 +18,23 @@
 // const thirdName = 'Владимировна';
 // console.log(firstName, secondName, thirdName);
 
-const name = 'Oksana';
+const name = "Oksana";
 const age = 18;
 const userData = `имя пользовтеля: ${name}, возраст ${age}`;
-const userDatanew = 'имя пользователя: ${name}, возраст ${age}';
+const userDatanew = "имя пользователя: ${name}, возраст ${age}";
 console.log(userData);
 
 const isUser = false;
 const isVisible = true;
-const isVisible2 = true; 
+const isVisible2 = true;
 
 let townName;
-townName = 'Moscow';
+townName = "Moscow";
 console.log(townName);
 
 const userData2 = {
-    name: 'Иван',
-    age: '34',
-}
+  name: "Иван",
+  age: "34",
+};
 console.log(typeof userData2.age);
 console.log(typeof age);
