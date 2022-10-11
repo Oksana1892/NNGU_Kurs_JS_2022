@@ -20,8 +20,7 @@
 
 const name = "Oksana";
 const age = 18;
-const userData = `имя пользовтеля: ${name}, возраст ${age}`;
-const userDatanew = "имя пользователя: ${name}, возраст ${age}";
+const userData = "имя пользователя: ${name}, возраст ${age}";
 console.log(userData);
 
 const isUser = false;
@@ -29,6 +28,8 @@ const isVisible = true;
 const isVisible2 = true;
 
 let townName;
+console.log(townName);
+
 townName = "Moscow";
 console.log(townName);
 
@@ -36,5 +37,8 @@ const userData2 = {
   name: "Иван",
   age: "34",
 };
+console.log(userData2);
+console.log(userData2.name);
+
 console.log(typeof userData2.age);
 console.log(typeof age);
